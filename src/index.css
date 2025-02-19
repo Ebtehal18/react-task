@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+@layer components{
+  .btn{
+    @apply bg-[#6D91EE] px-[40px] py-[7px] font-medium text-[24px] text-white rounded-[20px] cursor-pointer
+  }
+  .input{
+    @apply bg-[#CEDCFF] rounded-full py-[20px] ps-[20px] text-[16px] placeholder-black focus:outline-0 
+  }
+  .heading-about{
+    @apply font-[900] md:text-[64px] m-0 text-[40px]
+  }
+.btn-submit{
+  @apply bg-[white] text-black border-2 border-[#5180F6] text-[18px] font-[400]  self-center w-fit  
+}
+.heading-page{
+  @apply text-center md:text-[64px] text-[40px] text-[#6D91EE] font-[900] 
+}
+}
+body{
+  font-family: "Poppins", serif;
+}
+/* .hero{
+  background-image: url(./hero.png);
+  background-size: contain;
+  height: 100vh;
+  background-repeat: no-repeat;
+} */
+.about{
+/* position: relative; */
+  background-image: url(./about.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+/* .where{
+
+  background-image: url(./colored-rec.png);
+  position: absolute;
+right: 0;
+bottom:0;
+top: 0;
+background-size: cover;
+width: 62%;
+  height: 100%; 
+} */
