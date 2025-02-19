@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return <section className="flex flex-col bg-[#6D91EE]">
   <div className="relative flex flex-col md:flex-row">
-     <div className="about px-4 md:px-0">
+     <div className="about md:h-screen px-4 md:px-0">
      <div className="md:w-3/4 flex flex-col items-center text-white ">
      <div className="mt-[43px] ">
         <h2 className="heading-about">About Us</h2>

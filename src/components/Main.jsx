@@ -9,7 +9,7 @@ export default function Main() {
   <div className="flex flex-col text-[#6D91EE] leading-none">
   <h1 className="md:text-[60px] text-[30px] font-light m-0">Round Rock
     </h1>
-        <span className="tracking-[15px] text-[21px] font-extrabold">Trush Hauling</span>
+        <span className="md:tracking-[15px] tracking-[2px] text-[21px] font-extrabold">Trush Hauling</span>
   </div>
    </div>
 </div>
