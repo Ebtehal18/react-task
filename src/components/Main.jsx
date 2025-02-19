@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Main() {
-  return <main className="h-screen bg-no-repeat md:bg-contain bg-cover bg-[url('./hero.png')] flex flex-col items-center">
+  return <main className="h-screen bg-no-repeat md:bg-contain bg-cover bg-[url('/hero.png')] flex flex-col items-center">
   
 <div className="overflow-hidden">
    <div className="flex items-center mt-14 justify-center gap-5 ">
